@@ -30,14 +30,14 @@ const Resume: React.FC = () => {
               
               <div className="flex flex-col gap-3">
                 <a 
-                  href="#" 
+                  href="https://drive.google.com/file/d/12Eb-Hy6e3O0k58K8OE1xf4XeqR4NVS5s/view?usp=sharing" 
                   className="flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"
                 >
                   <FileDown size={18} />
                   Download PDF
                 </a>
                 <a 
-                  href="#" 
+                  href="https://drive.google.com/file/d/12Eb-Hy6e3O0k58K8OE1xf4XeqR4NVS5s/view?usp=sharing" 
                   className="flex items-center justify-center gap-2 px-6 py-3 border border-blue-600 dark:border-blue-400 text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/30 rounded-lg transition-colors duration-300"
                 >
                   <FileText size={18} />
@@ -59,55 +59,73 @@ const Resume: React.FC = () => {
               <div className="space-y-6">
                 <div className="pb-6 border-b border-gray-200 dark:border-gray-700">
                   <h4 className="text-lg font-medium text-gray-900 dark:text-white">
-                    Master of Computer Science
+                    B.Tech in Electronics and Communication Engineering-7.4 CGPA
                   </h4>
-                  <p className="text-blue-600 dark:text-blue-400 mb-1">Stanford University • 2015-2017</p>
+                  <p className="text-blue-600 dark:text-blue-400 mb-1">Samskruti college of Engineering and Technology • 2021-2024</p>
                   <p className="text-gray-700 dark:text-gray-300">
-                    Focused on human-computer interaction and machine learning. 
-                    Graduated with honors and completed a thesis on adaptive user interfaces.
+                    Gained foundationa; and practical Knowledge in electronics and software systems
+                    <br />
+                    Explored web development and fullsttack technologies through  hands-on projects <br />
+                    Build and deployed responsive web apps using java,React.js, and SpringBoot
                   </p>
                 </div>
                 
-                <div>
+                <div className="pb-6 border-b border-gray-200 dark:border-gray-700">
                   <h4 className="text-lg font-medium text-gray-900 dark:text-white">
-                    Bachelor of Science in Computer Science
+                   Diploma in Electronics and Communication Engineering-7.67 CGPA
                   </h4>
-                  <p className="text-blue-600 dark:text-blue-400 mb-1">University of California, Berkeley • 2011-2015</p>
+                  <p className="text-blue-600 dark:text-blue-400 mb-1">Samskruti college of Engineering and Technology • 2018-2021</p>
                   <p className="text-gray-700 dark:text-gray-300">
-                    Core coursework in algorithms, data structures, and software engineering. 
-                    Participated in multiple hackathons and coding competitions.
+                     Learned core electronics and circuits design 
+                    <br />
+                    Introduced to programming an microtroller basics
+                    <br />
+                    Build real-time project in the finnal year of Diploma.
                   </p>
                 </div>
+                 <div>
+                  <h4 className="text-lg font-medium text-gray-900 dark:text-white">
+                   High School -8.8 CGPA
+                  </h4>
+                  <p className="text-blue-600 dark:text-blue-400 mb-1">Serenity Model High School • 2017-2018</p>
+                  <p className="text-gray-700 dark:text-gray-300">
+                   Actively participated in school-level science exhibition and quiz competitions.
+                  </p>
+                </div>
+               
               </div>
+              
             </div>
             
             <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md">
               <div className="flex items-center mb-6">
                 <Award size={24} className="text-blue-600 dark:text-blue-400 mr-3" />
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                  Certifications & Awards
+                  Certifications & Internships
                 </h3>
               </div>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
-                  <h4 className="font-medium text-gray-900 dark:text-white">AWS Certified Solutions Architect</h4>
+                  <h4 className="font-medium text-gray-900 dark:text-white"> Java FullStack Development </h4>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">2024</p>
+                </div>
+
+                <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+                  <h4 className="font-medium text-gray-900 dark:text-white">AWS certification</h4>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">2023</p>
+                </div>
+                
+                
+                <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+                  <h4 className="font-medium text-gray-900 dark:text-white"> Embedded Systems, Internet of Things and Vlsi Design</h4>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">2021</p>
                 </div>
                 
+              
                 <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
-                  <h4 className="font-medium text-gray-900 dark:text-white">Google Cloud Professional Developer</h4>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm">2020</p>
-                </div>
-                
-                <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
-                  <h4 className="font-medium text-gray-900 dark:text-white">Innovation Award, TechCrunch Hackathon</h4>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm">2019</p>
-                </div>
-                
-                <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
-                  <h4 className="font-medium text-gray-900 dark:text-white">MongoDB Certified Developer</h4>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm">2018</p>
+                  <h4 className="font-medium text-gray-900 dark:text-white">District Level Tournment Kabaddi</h4>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">2017</p>
                 </div>
               </div>
             </div>

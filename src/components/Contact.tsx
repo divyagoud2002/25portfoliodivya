@@ -44,7 +44,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="py-20 px-4 bg-gray-50 dark:bg-gray-900">
+    <section id="contact" className="py-20 px-4 bg-gray-50 dark:bg-gray-800">
       <div className="container mx-auto">
         <SectionHeading
           title="Contact Me"
@@ -71,7 +71,7 @@ const Contact: React.FC = () => {
                       href="mailto:john.doe@example.com" 
                       className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
                     >
-                      john.doe@example.com
+                      gouddivyathimmapuram@gmail.com
                     </a>
                   </div>
                 </div>
@@ -88,7 +88,7 @@ const Contact: React.FC = () => {
                       href="tel:+14155552671" 
                       className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
                     >
-                      +1 (415) 555-2671
+                      9014428179
                     </a>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ const Contact: React.FC = () => {
                       Location
                     </h4>
                     <p className="text-gray-900 dark:text-white">
-                      San Francisco, California
+                     Medchal-Hyderabad, Telangana
                     </p>
                   </div>
                 </div>
@@ -123,7 +123,7 @@ const Contact: React.FC = () => {
                     </svg>
                   </a>
                   <a 
-                    href="#" 
+                    href="https://www.linkedin.com/in/thimmapuram-divya-a667b0257/" 
                     className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-full text-blue-600 dark:text-blue-400 hover:bg-blue-200 dark:hover:bg-blue-800/30 transition-colors duration-300"
                     aria-label="LinkedIn"
                   >
@@ -132,7 +132,7 @@ const Contact: React.FC = () => {
                     </svg>
                   </a>
                   <a 
-                    href="#" 
+                    href="https://github.com/" 
                     className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-full text-blue-600 dark:text-blue-400 hover:bg-blue-200 dark:hover:bg-blue-800/30 transition-colors duration-300"
                     aria-label="GitHub"
                   >

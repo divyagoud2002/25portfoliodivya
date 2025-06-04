@@ -32,8 +32,8 @@ const Hero: React.FC = () => {
 </h2>
 
             <p className="text-gray-600 dark:text-gray-400 text-lg mb-8 max-w-lg animate-fade-in-up animation-delay-200 leading-relaxed">
-              I build exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Let's create something amazing together.
-            </p>
+             A passionate Java Full Stack Developer eager to turn ideas into functional, user-friendly web apps while continuously learning and growing in the tech world.            
+        </p>
             
             <div className="flex flex-wrap gap-4 mb-8 animate-fade-in-up animation-delay-300">
               <a 
@@ -52,26 +52,26 @@ const Hero: React.FC = () => {
             
             <div className="flex space-x-6 animate-fade-in-up animation-delay-400">
               <a 
-                href="https://github.com" 
+                href="https://github.com/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-3 rounded-full gradient-border bg-white dark:bg-gray-900 hover:scale-110 transition-transform duration-300"
+                className="p-3 rounded-full gradient-border bg-white dark:bg-gray-600 hover:scale-110 transition-transform duration-300"
                 aria-label="GitHub"
               >
                 <Github size={24} />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/thimmapuram-divya-a667b0257/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-3 rounded-full gradient-border bg-white dark:bg-gray-900 hover:scale-110 transition-transform duration-300"
+                className="p-3 rounded-full gradient-border bg-white dark:bg-gray-600 hover:scale-110 transition-transform duration-300"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={24} />
               </a>
               <a 
-                href="mailto:john.doe@example.com" 
-                className="p-3 rounded-full gradient-border bg-white dark:bg-gray-900 hover:scale-110 transition-transform duration-300"
+                href="mailto:gouddivyathimmapuram@gmail.com" 
+                className="p-3 rounded-full gradient-border bg-white dark:bg-gray-600 hover:scale-110 transition-transform duration-300"
                 aria-label="Email"
               >
                 <Mail size={24} />
@@ -83,7 +83,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden gradient-border p-1 shadow-2xl mx-auto">
                 <img 
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" 
+                  src="https://i.ibb.co/8nkygvX4/photodivya.png"
                   alt="John Doe" 
                   className="w-full h-full object-cover rounded-full"
                 />

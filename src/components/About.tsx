@@ -17,36 +17,40 @@ const About: React.FC = () => {
               Who I Am
             </h3>
             <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              I'm a passionate Full Stack Developer with 5+ years of experience building web applications 
-              that solve real-world problems. My journey in technology started when I built my first website at 14, 
-              and I've been hooked ever since.
+             I'm a passionate Full Stack Developer and a 2024 B.Tech graduate in Electronics and Communication Engineering. I'm focused on building smart, modern, and responsive web applications that solve real-world problems. My journey in tech began with my curiosity for software development and has only grown stronger since then.
+
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              I specialize in creating responsive, accessible, and performant web applications using 
-              modern technologies. I'm particularly interested in user experience design and building 
-              products that are not just functional but also delightful to use.
+              
+                  I specialize in creating accessible, high-performance web applications using modern Java-based backend tools (like Spring Boot, JSP/Servlet) and frontend technologies (React.js, Tailwind CSS, and Bootstrap). I have a strong interest in user experience design and enjoy crafting applications that are not only functional but also visually compelling.
+
             </p>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              Outside of coding, I enjoy hiking, reading science fiction, and experimenting with new recipes.
-              I believe in continuous learning and regularly attend tech conferences and workshops.
+             
+             Outside of coding, I’m committed to self-improvement, learning new technologies, and preparing for my next big opportunity in tech. I actively build projects, explore automation tools, and follow industry trends.
+
             </p>
             
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="flex items-center">
                 <Calendar size={20} className="text-blue-600 dark:text-blue-400 mr-2" />
-                <span className="text-gray-700 dark:text-gray-300">Born: Jan 15, 1990</span>
+                <span className="text-gray-700 dark:text-gray-300">Born: Jan 25, 2002
+                </span>
               </div>
               <div className="flex items-center">
                 <MapPin size={20} className="text-blue-600 dark:text-blue-400 mr-2" />
-                <span className="text-gray-700 dark:text-gray-300">San Francisco, CA</span>
+                <span className="text-gray-700 dark:text-gray-300"> Location: Hyderabad
+                </span>
               </div>
               <div className="flex items-center">
                 <GraduationCap size={20} className="text-blue-600 dark:text-blue-400 mr-2" />
-                <span className="text-gray-700 dark:text-gray-300">B.S. Computer Science</span>
+                <span className="text-gray-700 dark:text-gray-300"> Degree: B.Tech in ECE
+                </span>
               </div>
               <div className="flex items-center">
                 <Briefcase size={20} className="text-blue-600 dark:text-blue-400 mr-2" />
-                <span className="text-gray-700 dark:text-gray-300">5+ Years Experience</span>
+                <span className="text-gray-700 dark:text-gray-300"> Status: Fresher | Actively seeking software job roles
+</span>
               </div>
             </div>
           </div>
@@ -61,11 +65,17 @@ const About: React.FC = () => {
                 <div className="absolute left-0 top-1 w-4 h-4 rounded-full bg-blue-600 dark:bg-blue-400 border-4 border-white dark:border-gray-800 z-10"></div>
                 <div className="bg-gray-50 dark:bg-gray-700 p-5 rounded-lg shadow-sm">
                   <h4 className="text-lg font-medium text-gray-900 dark:text-white">
-                    Senior Developer at TechCorp
+                    Java Full Stack Developer (Trainee)
+                        2024 -2025
+                       
+
                   </h4>
-                  <p className="text-blue-600 dark:text-blue-400 text-sm mb-2">2020 - Present</p>
+                  <p className="text-blue-600 dark:text-blue-400 text-sm mb-2">2025 - Present</p>
                   <p className="text-gray-700 dark:text-gray-300">
-                    Leading development of enterprise applications. Mentoring junior developers and implementing best practices.
+                     • Practiced problem-solving and coding with focus on DSA fundamentals <br />
+                    • Deployed websites on Netlify and GitHub Pages
+                    • Built full-stack applications using JSP, Servlets, and Spring Boot <br />
+                    • Created responsive UIs with React.js and Tailwind CSS
                   </p>
                 </div>
               </div>
@@ -74,27 +84,19 @@ const About: React.FC = () => {
                 <div className="absolute left-0 top-1 w-4 h-4 rounded-full bg-blue-600 dark:bg-blue-400 border-4 border-white dark:border-gray-800 z-10"></div>
                 <div className="bg-gray-50 dark:bg-gray-700 p-5 rounded-lg shadow-sm">
                   <h4 className="text-lg font-medium text-gray-900 dark:text-white">
-                    Full Stack Developer at StartupX
+                     Portfolio Projects   2025 - present
+                
                   </h4>
-                  <p className="text-blue-600 dark:text-blue-400 text-sm mb-2">2018 - 2020</p>
+                  <p className="text-blue-600 dark:text-blue-400 text-sm mb-2">2025</p>
                   <p className="text-gray-700 dark:text-gray-300">
-                    Built and maintained multiple client projects using React, Node.js, and MongoDB.
+                     • Designed and deployed personal portfolio site with multi-section layout <br />
+                  • Developed modules like job tracker, contact forms, and GitHub integrations. <br />
+                    • Used Figma for UI designs and GitHub for version control
                   </p>
                 </div>
               </div>
               
-              <div className="relative pl-8">
-                <div className="absolute left-0 top-1 w-4 h-4 rounded-full bg-blue-600 dark:bg-blue-400 border-4 border-white dark:border-gray-800 z-10"></div>
-                <div className="bg-gray-50 dark:bg-gray-700 p-5 rounded-lg shadow-sm">
-                  <h4 className="text-lg font-medium text-gray-900 dark:text-white">
-                    Frontend Developer at DesignAgency
-                  </h4>
-                  <p className="text-blue-600 dark:text-blue-400 text-sm mb-2">2016 - 2018</p>
-                  <p className="text-gray-700 dark:text-gray-300">
-                    Created responsive websites and interactive UI components for various clients.
-                  </p>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
