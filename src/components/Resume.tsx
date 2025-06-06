@@ -30,14 +30,14 @@ const Resume: React.FC = () => {
               
               <div className="flex flex-col gap-3">
                 <a 
-                  href="https://drive.google.com/file/d/12Eb-Hy6e3O0k58K8OE1xf4XeqR4NVS5s/view?usp=sharing" 
+                  href="https://drive.google.com/file/d/1oKTOHVQyKDdk7LJ9DD7qnj3dwjev3rJC/view?usp=sharing" 
                   className="flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"
                 >
                   <FileDown size={18} />
                   Download PDF
                 </a>
                 <a 
-                  href="https://drive.google.com/file/d/12Eb-Hy6e3O0k58K8OE1xf4XeqR4NVS5s/view?usp=sharing" 
+                  href="https://drive.google.com/file/d/1oKTOHVQyKDdk7LJ9DD7qnj3dwjev3rJC/view?usp=sharing" 
                   className="flex items-center justify-center gap-2 px-6 py-3 border border-blue-600 dark:border-blue-400 text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/30 rounded-lg transition-colors duration-300"
                 >
                   <FileText size={18} />

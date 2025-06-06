@@ -44,7 +44,7 @@ const Projects: React.FC = () => {
       title: 'Arduino-based Radar System',
       description:
         'Mini project using Arduino and Ultrasonic Sensor to detect object location with radar-like animation.',
-      link: '#',
+      link: 'https://projects.arduinocontent.cc/cover-images/2ea2ea0e-5a1c-4f87-acb3-bf3c5e1585b3.blob',
       image: 'https://projects.arduinocontent.cc/cover-images/2ea2ea0e-5a1c-4f87-acb3-bf3c5e1585b3.blob',
     },
     {
@@ -52,7 +52,7 @@ const Projects: React.FC = () => {
       title: 'Wheelchair Control through Eye Blinking',
       description:
         'Major project using Arduino Uno and eye-blink detection to control wheelchair movement. Includes login functionality.',
-      link: '#',
+      link: 'https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11265-022-01828-6/MediaObjects/11265_2022_1828_Fig12_HTML.jpg',
        image: 'https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11265-022-01828-6/MediaObjects/11265_2022_1828_Fig12_HTML.jpg',
     },
     
@@ -61,7 +61,7 @@ const Projects: React.FC = () => {
       title: 'Restaurant Website',
       description:
         'Responsive restaurant website built using HTML, CSS, and JavaScript to display menu and contact info.',
-      link: '#',
+      link: 'https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1708006767/catalog/1508557312875302912/ocbsf3wfqmt53dwrh2wv.webp',
       image: 'https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1708006767/catalog/1508557312875302912/ocbsf3wfqmt53dwrh2wv.webp',
     },
     {
@@ -69,7 +69,7 @@ const Projects: React.FC = () => {
       title: 'E-commerce Mini Web App',
       description:
         'Basic shopping site using HTML, CSS, JavaScript with product listings and cart UI.',
-      link: '#',
+      link: 'https://freeprojectscodes.com/wp-content/uploads/2022/02/Ecommerce-Website-in-PHP-MySQL-with-Source-Code-for-free-.-freeprojectscodes.jpg',
       image: 'https://freeprojectscodes.com/wp-content/uploads/2022/02/Ecommerce-Website-in-PHP-MySQL-with-Source-Code-for-free-.-freeprojectscodes.jpg',
     },
     {
@@ -77,8 +77,8 @@ const Projects: React.FC = () => {
       title: 'Login Page',
       description:
         'Simple and styled login page using Bootstrap and HTML/CSS for frontend authentication UI.',
-      link: '#',
-      image: 'https://laraveldaily.com/uploads/2023/02/login.png',
+      link: 'https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1708006767/catalog/1508557312875302912/ocbsf3wfqmt53dwrh2wv.webp',
+      image: 'https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1708006767/catalog/1508557312875302912/ocbsf3wfqmt53dwrh2wv.webp',
     },
   ];
 
